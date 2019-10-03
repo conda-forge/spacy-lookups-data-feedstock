@@ -20,7 +20,7 @@ requirements:
     - pip
     - setuptools
     - srsly >=0.1.0,<1.1.0
-    - pathlib==1.0.1; python_version < "3.4"
+    - pathlib ==1.0.1 # [py27]
   run:
     - python
     - setuptools
