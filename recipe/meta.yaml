@@ -10,8 +10,33 @@ source:
   sha256: 290db7600987157b9e924075a58bb3bcb725897d8f6c6c7d50a67db350b273a0
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
+  entry_points:
+    - hr = spacy_lookups_data:hr
+    - pt = spacy_lookups_data:pt
+    - sv = spacy_lookups_data:sv
+    - da = spacy_lookups_data:da
+    - ca = spacy_lookups_data:ca
+    - es = spacy_lookups_data:es
+    - fr = spacy_lookups_data:fr
+    - nb = spacy_lookups_data:nb
+    - tr = spacy_lookups_data:tr
+    - de = spacy_lookups_data:de
+    - it = spacy_lookups_data:it
+    - lt = spacy_lookups_data:lt
+    - nl = spacy_lookups_data:nl
+    - ro = spacy_lookups_data:ro
+    - sr = spacy_lookups_data:sr
+    - id = spacy_lookups_data:id_
+    - hu = spacy_lookups_data:hu
+    - fa = spacy_lookups_data:fa
+    - en = spacy_lookups_data:en
+    - el = spacy_lookups_data:el
+    - bn = spacy_lookups_data:bn
+    - tl = spacy_lookups_data:tl
+    - ur = spacy_lookups_data:ur
+
 
 requirements:
   host:
