@@ -10,6 +10,7 @@ source:
   sha256: 290db7600987157b9e924075a58bb3bcb725897d8f6c6c7d50a67db350b273a0
 
 build:
+  noarch: python
   number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
@@ -44,7 +45,6 @@ requirements:
     - pip
     - setuptools
     - srsly >=0.1.0,<1.1.0
-    - pathlib >=1.0.0,<2.0.0  # [py27]
   run:
     - python
     - setuptools
