@@ -1,5 +1,5 @@
 {% set name = "spacy-lookups-data" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/spacy_lookups_data-{{ version }}.tar.gz
-  sha256: 4f58f3c9cbce50b75bdd57a1c84b5c9a1f17ffa23b285e724ee066fef64886be
+  sha256: f7a5d560a5c7ba3086f1bf6c641364974ca0c1cbf3f35992312be0f781bb6bd1
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Additional lookup tables and data resources for spaCy'
+  summary: Additional lookup tables and data resources for spaCy
 
   # The remaining entries in this section are optional, but recommended.
   description: |
