@@ -5,9 +5,13 @@ Home: https://github.com/explosion/spacy-lookups-data
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spacy-lookups-data-feedstock/blob/master/LICENSE.txt)
 
 Summary: Additional lookup tables and data resources for spaCy
+
+Development: https://github.com/explosion/spacy-lookups-data
+
+Documentation: https://spacy.io/
 
 This package contains additional data files to be used with spaCy v2.2+.
 When it's installed in the same environment as spaCy, this package makes
