@@ -1,5 +1,5 @@
 {% set name = "spacy-lookups-data" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/spacy_lookups_data-{{ version }}.tar.gz
-  sha256: 59b3e042c7ace98de06b3d22d079c7bc6970fe631bd77a1ee0487cfbe0eee605
+  sha256: ab6865548fb866d479090e31108a7e25ed192a11fcb09896e7116328cdc52be1
 
 build:
   noarch: python
