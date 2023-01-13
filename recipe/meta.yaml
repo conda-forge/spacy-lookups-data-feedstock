@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools
     - srsly >=0.1.0,<1.1.0
   run:
-    - python
+    - python >=3.6
     - setuptools
 
 test:
