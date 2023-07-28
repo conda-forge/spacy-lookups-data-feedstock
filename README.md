@@ -1,11 +1,11 @@
-About spacy-lookups-data
-========================
+About spacy-lookups-data-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spacy-lookups-data-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/explosion/spacy-lookups-data
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spacy-lookups-data-feedstock/blob/master/LICENSE.txt)
 
 Summary: Additional lookup tables and data resources for spaCy
 
@@ -25,8 +25,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8038&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-lookups-data-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8038&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-lookups-data-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -153,6 +153,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@adrianeboyd](https://github.com/adrianeboyd/)
 * [@honnibal](https://github.com/honnibal/)
 * [@ines](https://github.com/ines/)
 
