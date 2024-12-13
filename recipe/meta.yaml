@@ -46,6 +46,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - adrianeboyd
-    - honnibal
-    - ines
+    - conda-forge/spacy
